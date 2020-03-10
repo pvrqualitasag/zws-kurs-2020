@@ -1,0 +1,66 @@
+---
+title: "Lernziele für ZWS-Kurs 2020"
+author: "Peter von Rohr"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_html: default
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+# Erklärung
+Lernziele für den ZWS-Kurs 2020 werden entwickelt und formuliert
+
+
+# Kursausschreibung
+Der Kurs `ZWS-Kurs 2020` ist als modularer drei-teiliger Kurs ausgeschrieben. Die Aufteilung der Themen in die Module lautet wie folgt.
+
+* Modul 1: Grundlagen
+* Modul 2: Vertiefung in merkmalsspezifische Besonderheiten
+* Modul 3: Neue Merkmale und neue Methoden.
+
+
+# Terminologie
+Im Englischen Sprachgebrauch wird zwischen `Learning Goals` und `Learning Objectives` unterschieden. Gemäss einiger Quellen^[https://bokcenter.harvard.edu/learning-goals-and-learning-objectives, https://www.learnworlds.com/learning-goals-objectives/, ...] wird der erste Begriff für allgemeinere und längerfristige Ziele verwendet. Der zweite Begriff scheint dagegen konkretere Fähigkeiten zu beinhalten.
+
+In der Deutschen Sprache wird diese Unterscheidung nicht gemacht. Sondern es wird allgemein von `Lernzielen` gesprochen.
+
+
+# Was sind Lernziele
+Lernziele beantworten die Frage nach den Fähigkeiten, welche Kursteilnehmer nach dem Kurs mit nach Hause nehmen sollen. Gängige formulierungen von Lernzielen beginnen mit: "Nach dem Kurs können die Teilnehmer ...".
+
+Bei einer detailierten Ausarbeitung von Lernzielen werden die Fähigkeiten in verschiedene Domänen eingeteilt. Diese basieren auf Bloom's Taxonomy^[https://www.learnworlds.com/learning-goals-objectives/]. 
+
+
+# Lernziele für den Kurs
+
+Die Absolventinnen und Absolventen des Kurs sind im Anschluss des Kurses mit dem folgenden Fähigkeiten ausgerüstet.
+
+* Sie verstehen die wissenschaftliche Bedeutung des Begriffs der Nutztierzucht und können diese von anderen umgangssprachlichen Verwendungen des gleichen Begriffs unterscheiden.
+* Sie verstehen die Zielsetzungen der Zucht in einer Population
+* Sie kennen die bestimmenden Faktoren für die Erreichung eines Zuchtfortschritts.
+* Sie verstehen die möglichen Spannungsfelder zwischen züchterischen und betriebswirtschaftlichen Zielsetzungen.
+* Sie verstehen die Bedeutung des Begriffs Zuchtwert aufgrund der zugrundeliegenden Definition.
+* Sie können den Begriff des Zuchtwerts vom Begriff der phänotypischen Leistung unterscheiden und abgrenzen.
+* Sie können auf einem Leistungsblatt oder in den Web-Applikationen der Zuchtorganisationen bestimmen bei welchen Angaben es sich um phänotypische Leistungen und bei welchen es sich um Zuchtwerte handelt.
+* Aufgrund der Definition des Begriffs Zuchtwert können sie gewisse Eigenschaften von Zuchtwerten einordnen. Beispielsweise, weshalb ein Zuchtwert negativ sein kann, oder weshalb der Zuchtwert im Verlauf des Lebens eines Tieres abnehmen kann.
+* Sie verstehen den Unterschied zwischen einem Zuchtwert in einem einzelnen Merkmal und dem Gesamtzuchtwert. 
+* Sie verstehen die unterschiedlichen Arten mehrere Merkmale in einem Zuchtziel zu berücksichtigen und erkennen, weshalb die Verwendung eines Gesamtzuchtwertes optimal ist.
+* Sie verstehen die Unterschiede zwischen traditioneller Zuchtwertschätzung und der genomischen Zuchtwertschätzung.
+* Sie können die Vorteile der genomischen Zuchtwertschätzung / genomischen Selektion benennen.
+* Sie verstehen die merkmals-spezifischen Besonderheiten der traditionellen Zuchtwertschätzungen im Bezug auf die verwendeten Modelle und die angewendeten Auswertungsverfahren.
+
+
+# Literatur
+
+```{r create-ref, echo=FALSE}
+s_bib_fn <- "skeleton.bib"
+if (!file.exists(s_bib_fn)) fs::file_create(path = s_bib_fn)
+```
+
